@@ -254,7 +254,8 @@
     }
 
     .footer__nav-wrapper {
-        gap: 15px;
+        justify-content: flex-start;
+        gap: 50px;
     }
 }
 
@@ -302,6 +303,11 @@
 
     .autoComplete_wrapper.form__input::placeholder {
         font-weight: 500;
+    }
+
+    .footer__nav-wrapper {
+        justify-content: space-between;
+        gap: 15px;
     }
 }
 
