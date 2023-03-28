@@ -1,32 +1,32 @@
 @media (max-width: 1230px) {
-	.form {
-		width: auto;
-		height: auto;
-	}
+    .form {
+        width: auto;
+        height: auto;
+    }
 
-	.easepick-wrapper {
-		z-index: 5;
-	}
+    .easepick-wrapper {
+        z-index: 5;
+    }
 
     .form__input--location {
         width: 250px;
     }
 
-	.form__input--when {
-		width: 220px;
-	}
+    .form__input--when {
+        width: 220px;
+    }
 
-	.form__input--guests {
-		width: 220px;
-	}
+    .form__input--guests {
+        width: 220px;
+    }
 
-	.form__input--activity {
-		width: 220px;
-	}
+    .form__input--activity {
+        width: 220px;
+    }
 
-	.autoComplete_wrapper > input {
-		width: auto !important;
-	}
+    .autoComplete_wrapper>input {
+        width: auto !important;
+    }
 
     .footer {
         padding: 60px 0;
@@ -54,32 +54,34 @@
 
 @media (max-width: 1139px) {
     .header {
-		height: auto;
-		min-height: 500px;
-		border-radius: 0 0 40px 40px;
-	}
+        height: auto;
+        min-height: 500px;
+        border-radius: 0 0 40px 40px;
+    }
 
     .container {
         padding: 0 16px;
     }
 
-	.container--header {
-		justify-content: flex-start;
-		row-gap: 90px;
-	}
+    .container--header {
+        justify-content: flex-start;
+        row-gap: 90px;
+    }
 
     .header-title {
         font-size: 32px;
     }
 
     /* navigation */
-    
+
     .nav-list {
         display: none;
     }
+
     .nav__user {
         display: none;
     }
+
     .mobile-nav-btn {
         display: block;
     }
@@ -112,7 +114,7 @@
 
     .section__cards--2-in-roll {
         grid-template-columns: repeat(1, 1fr);
-    } 
+    }
 
     .card__img--tips {
         height: 100%;
@@ -133,11 +135,11 @@
 
 @media (max-width: 1040px) {
     .form {
-		width: auto;
-		height: auto;
+        width: auto;
+        height: auto;
         flex-direction: column;
         justify-content: flex-start;
-	}
+    }
 
     .form__input--wrapper {
         width: 100%;
@@ -152,8 +154,9 @@
     }
 
     .card__title {
-        font-size: 14px !important; 
+        font-size: 14px !important;
     }
+
     /* так как все оглавления карточек имеет один класс, 
     то можно его изменить и сделать "важным" для того, 
     чтобы сократить количество строк кода! */
@@ -197,7 +200,7 @@
 
     .section__cards--2-in-roll {
         grid-template-columns: 1fr;
-    } 
+    }
 
     .card-wide {
         grid-template-columns: 1fr;
@@ -229,7 +232,7 @@
     .footer__nav-title {
         font-size: 14px;
     }
-    
+
     .footer__nav-link {
         font-size: 10px;
     }
@@ -248,6 +251,13 @@
     .section__cards--6-in-roll {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .mobile-nav {
+        right: -220px;
+        width: 220px;
+    }
+
+    .mobile-nav--open {
+        right: 0;
+    }
 }
-
-
