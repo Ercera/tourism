@@ -201,7 +201,8 @@ header a {
 
 .form__input::placeholder {
     color: #000;
-
+    font-weight: 500;
+    
 }
 
 /* -------- MAIN ------------- */

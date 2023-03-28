@@ -1,6 +1,7 @@
 .custom-select-container {
   position: relative;
   box-sizing: border-box;
+  font-weight: 500;
 }
 .custom-select-container * {
   box-sizing: border-box;
