@@ -491,7 +491,6 @@ header a {
 
 .footer__nav-link {
     color: #5B5B5B;
-    ;
     font-size: 13px;
 }
 
@@ -537,7 +536,7 @@ header a {
 
 .subscribe__label {
     position: absolute;
-    top: 25px;
+    top: 27px;
     left: 56px;
     font-size: 14px;
     font-weight: 300;
@@ -549,7 +548,7 @@ header a {
 
 .subscribe__input:focus ~ .subscribe__label,
 .subscribe__input:valid ~ .subscribe__label  {
-    top: 16px;
+    top: 12px;
 }
 
 .subscribe__label--top {

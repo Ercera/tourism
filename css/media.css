@@ -99,7 +99,7 @@
     }
 
     .section__header {
-        margin-bottom: 34px;
+        margin-bottom: 25px;
     }
 
     .section__cards--6-in-roll {
@@ -119,14 +119,16 @@
     }
 
     .card__text {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .aboutus__text {
-        font-size: 14px;
+        font-size: 12px;
     }
 
-    
+    .footer__nav-link {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 1040px) {
@@ -141,8 +143,27 @@
         width: 100%;
     }
 
+    .title-1 {
+        font-size: 16px;
+    }
+
+    .aboutus__title {
+        font-size: 16px;
+    }
+
+    .card__title {
+        font-size: 14px !important; 
+    }
+    /* так как все оглавления карточек имеет один класс, 
+    то можно его изменить и сделать "важным" для того, 
+    чтобы сократить количество строк кода! */
     .button--search {
         width: 100%;
+    }
+
+    .button-more {
+        gap: 2px;
+        font-size: 12px;
     }
 
     .aboutus {
@@ -205,24 +226,28 @@
         gap: 20px;
     }
 
+    .footer__nav-title {
+        font-size: 14px;
+    }
+    
+    .footer__nav-link {
+        font-size: 10px;
+    }
+
     .footer__subscribe {
         max-width: none;
     }
 
     .footer__nav-wrapper {
-        justify-content: flex-start;
-        gap: 40px;
+        justify-content: space-around;
+        gap: 15px;
     }
-
-
 }
 
 @media (max-width: 440px) {
     .section__cards--6-in-roll {
         grid-template-columns: repeat(1, 1fr);
     }
-
-    
 }
 
 
