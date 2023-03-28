@@ -5,6 +5,10 @@
 @import "./mobile-nav.css";
 
 /* @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600); */
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     font-family: 'Poppins', sans-serif;
@@ -202,7 +206,7 @@ header a {
 .form__input::placeholder {
     color: #000;
     font-weight: 500;
-    
+
 }
 
 /* -------- MAIN ------------- */
@@ -451,6 +455,11 @@ header a {
     max-width: 354px;
     display: grid;
     gap: 16px;
+}
+
+.footer__copyright a {
+    width: fit-content;
+    height: fit-content;
 }
 
 .footer__text {
